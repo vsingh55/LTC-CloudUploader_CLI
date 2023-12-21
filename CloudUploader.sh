@@ -18,3 +18,22 @@ function read_input {
     read -p "$1: " INPUT
     echo "$INPUT"
 }
+
+# Parse command-line arguments
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        -c|--container)
+            TARGET_CONTAINER=$2
+            shift
+            shift
+            ;;
+        -h|--help)
+            display_usage
+            exit 0
+            ;;
+        *)
+            FILENAME=$1
+            shift
+            ;;
+    esac
+done
