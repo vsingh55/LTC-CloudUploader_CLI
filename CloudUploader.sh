@@ -43,3 +43,6 @@ if [ ! -f "$FILENAME" ]; then
     echo "Error: File not found - $FILENAME"
     exit 1
 fi
+
+# Prompt user for Azure Blob Storage details
+echo "Please provide Azure Blob Storage details:"
