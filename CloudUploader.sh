@@ -48,3 +48,4 @@ fi
 echo "Please provide Azure Blob Storage details:"
 
 ACCOUNT_NAME=$(read_input "Azure Storage Account Name")
+ACCOUNT_KEY=$(read_input "Azure Storage Account Key")
