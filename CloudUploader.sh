@@ -37,3 +37,9 @@ while [[ $# -gt 0 ]]; do
             ;;
     esac
 done
+
+# Check if the file exists
+if [ ! -f "$FILENAME" ]; then
+    echo "Error: File not found - $FILENAME"
+    exit 1
+fi
