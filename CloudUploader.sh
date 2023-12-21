@@ -46,3 +46,5 @@ fi
 
 # Prompt user for Azure Blob Storage details
 echo "Please provide Azure Blob Storage details:"
+
+ACCOUNT_NAME=$(read_input "Azure Storage Account Name")
