@@ -54,3 +54,6 @@ TARGET_CONTAINER=$(read_input "Target Container Name")
 # Upload the file to Azure Blob Storage
 echo "Uploading $FILENAME to $CLOUD_PROVIDER..."
 
+# Azure Blob Storage upload command
+az storage blob upload --account-name "$ACCOUNT_NAME" --account-key "$ACCOUNT_KEY" --container-name "$TARGET_CONTAINER" --name "$(basename "$FILENAME")" --type block --content-type "application/octet-stream" --file "$FILENAME"
+
