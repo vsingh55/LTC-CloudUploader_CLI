@@ -50,3 +50,7 @@ echo "Please provide Azure Blob Storage details:"
 ACCOUNT_NAME=$(read_input "Azure Storage Account Name")
 ACCOUNT_KEY=$(read_input "Azure Storage Account Key")
 TARGET_CONTAINER=$(read_input "Target Container Name")
+
+# Upload the file to Azure Blob Storage
+echo "Uploading $FILENAME to $CLOUD_PROVIDER..."
+
