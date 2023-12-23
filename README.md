@@ -52,3 +52,4 @@ bash CloudUploader.sh /path/to/local/file.*
 ```
 bash CloudUploader.sh ~/Documents/sample.txt 
 ```
+This command will upload the sample.txt file from your local system to the container in Azure Blob Storage.
