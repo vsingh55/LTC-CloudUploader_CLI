@@ -53,3 +53,9 @@ bash CloudUploader.sh /path/to/local/file.*
 bash CloudUploader.sh ~/Documents/sample.txt 
 ```
 This command will upload the sample.txt file from your local system to the container in Azure Blob Storage.
+
+### Contribution
+
+Feel free to contribute to this project by opening issues or submitting pull requests. <br>
+
+I would greatly appreciate your contribution to enhance this script for multi-cloud and multifile uploading.
