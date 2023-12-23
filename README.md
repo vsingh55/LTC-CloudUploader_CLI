@@ -41,3 +41,8 @@ az login
 ```
 chmod +x CloudUploader.sh
 ```
+
+**4.** Run the script with the local file path and the desired Azure Blob Storage destination path:
+```
+bash CloudUploader.sh /path/to/local/file.*
+```
