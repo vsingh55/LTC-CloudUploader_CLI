@@ -18,4 +18,9 @@ This Bash script provides a simple and efficient way to upload files from your l
 >>Go to the Azure portal. <br>
 >>Create a new Storage Account or use an existing one.<br>
 >>Configure Azure Storage Account Credentials:
+>>>Write down following credential that will be asked on running script: <br>
+>>>1.Azure Storage Account Name <br>
+>>>2.Azure Storage Account Key <br>
+>>>3.Target Container Name <br>
+>>>Or <br>
 >>>Open the CloudUploader.sh file and provide your Azure Storage Account credentials.
