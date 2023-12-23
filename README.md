@@ -49,3 +49,6 @@ bash CloudUploader.sh /path/to/local/file.*
 
 ## Example
 
+```
+bash CloudUploader.sh ~/Documents/sample.txt 
+```
