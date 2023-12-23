@@ -46,3 +46,6 @@ chmod +x CloudUploader.sh
 ```
 bash CloudUploader.sh /path/to/local/file.*
 ```
+
+## Example
+
