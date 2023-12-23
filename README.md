@@ -59,3 +59,6 @@ This command will upload the sample.txt file from your local system to the conta
 Feel free to contribute to this project by opening issues or submitting pull requests. <br>
 
 I would greatly appreciate your contribution to enhance this script for multi-cloud and multifile uploading.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
