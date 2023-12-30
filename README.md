@@ -1,5 +1,7 @@
 # LTC-CloudUploader_CLI
 
+
+
 ## Overview
 
 This Bash script provides a simple and efficient way to upload files from your local system to Azure Blob Storage. The script utilizes Azure Storage REST API to interact with Azure Blob Storage.
@@ -27,6 +29,7 @@ Configure Azure Storage Account Credentials:
 ## **How To Use**
 **1.** Clone the Repository:<br>
 ```
+sudo dnf install -y git
 git clone https://github.com/krvsc/LTC-CloudUploader_CLI.git
 ```
 
