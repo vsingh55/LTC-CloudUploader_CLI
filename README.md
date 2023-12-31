@@ -59,6 +59,7 @@ bash CloudUploader.sh ~/Documents/sample.txt
 ```
 This command will upload the sample.txt file from your local system to the container in Azure Blob Storage.
 
+## [Blog](https://blogs.vijaysingh.cloud/project-streamlining-file-uploads-to-azure-blob-storage-with-ltc-clouduploadercli)
 ### Contribution
 
 Feel free to contribute to this project by opening issues or submitting pull requests. <br>
