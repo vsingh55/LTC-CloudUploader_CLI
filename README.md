@@ -30,8 +30,7 @@ Configure Azure Storage Account Credentials:
 
 ## **How To Use**
 **1.** Clone the Repository:<br>
-```
-sudo dnf install -y git
+``` 
 git clone https://github.com/krvsc/LTC-CloudUploader_CLI.git
 ```
 
