@@ -5,6 +5,8 @@
 ## Overview
 
 This Bash script provides a simple and efficient way to upload files from your local system to Azure Blob Storage. The script utilizes Azure Storage REST API to interact with Azure Blob Storage.
+![clouduploader](https://github.com/user-attachments/assets/e1065aad-2b6e-40b1-98b1-fc0c7e1fb0d6)
+
 
 ## Prerequisites
 
